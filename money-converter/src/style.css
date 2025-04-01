@@ -1,0 +1,86 @@
+/* Global Styles */
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+  position: relative;
+  height: 100vh; /* Garante que a tela inteira seja usada */
+}
+
+/* Logo Styles */
+.logo {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  max-width: 150px;
+  width: auto;
+  border-radius: 10px;
+}
+
+/* Container with the background image */
+.container {
+  background: url(https://i.postimg.cc/jjRRktDy/thumb-1920-1012749.jpg) no-repeat center center/cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Content div for text and button */
+.content {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px 40px;
+  border-radius: 8px;
+}
+
+.content h2 {
+  margin-bottom: 20px;
+}
+
+/* Valor em Reais */
+.input-maior {
+  display: block;
+  padding: 12px;
+  width: 280px;
+  border:;
+  border-radius: 16px;
+  background-color: #f5f5f5;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Grid dos Conversores */
+.inputs-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 10px; 
+  justify-content: center;
+  max-width: 280px; 
+   margin-top: 10px;
+}
+
+/* Conversores*/
+.inputs-container input {
+  padding: 12px;
+  width: 130px;
+  border:;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 10px;
+}
+
