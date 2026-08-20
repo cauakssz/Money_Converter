@@ -1,53 +1,41 @@
-💱 Conversor de Moedas – Real (R$)
+# Money Converter
 
-Este é um projeto web simples e interativo que permite converter valores em Reais (R$) para outras moedas: Dólar (USD), Euro (€), Iene (¥) e Libra (£).
+A web application for converting Brazilian Real (BRL) to multiple currencies in real time. Built as a front-end practice project during Alura's Imersão DEV 2025, focused on DOM manipulation and live input handling.
 
-🚀 Funcionalidades
+## Live Demo
 
-Entrada de valores em Reais (R$).
+[money-converter.vercel.app](https://money-converter.vercel.app)
 
-Conversão automática para:
+## Features
 
-USD (Dólar americano)
+- Real-time conversion from Brazilian Real (BRL) to:
+  - USD — US Dollar
+  - EUR — Euro
+  - JPY — Japanese Yen
+  - GBP — British Pound
+- Formatted output with two decimal places
+- Clean and responsive interface
 
-€ (Euro)
+## Technologies
 
-¥ (Iene japonês)
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
 
-£ (Libra esterlina)
+## Project Structure
 
-Exibição dos valores formatados com duas casas decimais.
+Money_Converter/
+├── money-converter/
+│ ├── index.html
+│ ├── style.css
+│ └── script.js
+└── README.md
 
-Interface simples e responsiva.
 
-🕹️ Como Usar
+## Notes
 
-Digite um valor em Reais (R$) no campo de entrada.
+Exchange rates are static and approximate (USD = 0.18, EUR = 0.15, JPY = 25, GBP = 0.13) and do not reflect live market values.
 
-O sistema calcula automaticamente o equivalente nas demais moedas.
+## License
 
-Os resultados aparecem instantaneamente nos campos de conversão.
-
-🛠️ Tecnologias Utilizadas
-
-HTML5 → Estrutura do formulário e inputs.
-
-CSS3 → Estilo e layout responsivo.
-
-JavaScript (Vanilla) → Lógica da conversão em tempo real.
-
-📂 Estrutura do Projeto
-
-index.html → Estrutura da página.
-
-style.css → Estilização da interface.
-
-script.js → Lógica da conversão de moedas.
-
-⚠️ Observação
-
-Os valores das moedas são fixos e aproximados (USD = 0.18, EUR = 0.15, JPY = 25, GBP = 0.13) e não refletem a cotação em tempo real.
-
-✨ Créditos
-
-Projeto desenvolvido durante a Imersão DEV - Alura 2025.
+This project is available for educational purposes. Feel free to study, modify, and use it as a reference for learning web development.
